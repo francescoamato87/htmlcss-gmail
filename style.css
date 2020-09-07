@@ -1,0 +1,67 @@
+body{
+  background-image: url(img/parquet.jpg);
+  color: white;
+}
+
+.container{
+width: 1000px;
+margin: auto;
+}
+
+.logo{
+  width: 120px;
+}
+
+.testo-logo{
+  width: 25px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* span figlio di h2 */
+h2 > span{
+  color: red;
+  background-color: yellow;
+  border-radius: 50%;
+  padding:5px;
+}
+
+.row.read{
+  background-color: lightgrey;
+}
+
+.row.unread{
+  background-color: white;
+}
+
+.oggetto{color: black;}
+
+.testo{
+  color: grey
+}
+
+/* regola vista nel FundamentalsCamp ma che ho ancora
+ben capito */
+.star:after{content: "\2605";}
+
+   .star{
+     color: orange;
+   }
+
+   /* regola di semantica pratica, con la virgola */
+   .row-left, .row-right{
+     display: inline-block;
+   }
+   .row-left{
+     width: 30%;
+   }
+
+   .row-right{
+     width:69%;
+   }
+
+
+   footer{
+     text-align: center;
+     font-size: 20px;
+   }
